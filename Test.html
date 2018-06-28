@@ -4,9 +4,29 @@
 </head>
 
 <body>
-    <div>This is body text1</div>
-    <div>This is body text2</div>
-    <div>This is body text3</div>
+    <script>
+    function reverseString(str) 
+    {
+        return str.split("").reverse().join("");  
+    }
+    document.write(reverseString("Hello"));
+    </script>
+
+    <br>
+
+    <script>
+    function capitalize(str) {
+    str = str.toLowerCase();
+    document.write(str.slice(1))
+    str[0] = 'a'
+    document.write(str.charAt(0).toUpperCase())
+    str.charAt(0).toUpperCase().toUpperCase();
+    return str;
+    }
+    document.write(capitalize("rainY Morning in DeLHI"));
+    </script>
+    
 </body>
+
 </html>
   
